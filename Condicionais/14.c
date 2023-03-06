@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main () {
+int main (){
     char valor;
     int n1;
     int n2;
@@ -13,23 +13,29 @@ int main () {
     printf("Informe um numero: ");
     scanf("%d", &n2);
 
-    printf(valor); // não sei porque não esta pegando o valor do operador
-
-    if (valor == "+")
+    switch (valor)
     {
+    case '+':
         result = n1 + n2;
         printf("O resultado e: %d\n", result);
-    } else if (valor == "-") {
+        break;
+    case '-':
         result = n1 - n2;
         printf("O resultado e: %d\n", result);
-    } else if (valor == "*") {
+        break;
+    case '*':
         result = n1 * n2;
         printf("O resultado e: %d\n", result);
-    } else if (valor == "/") {
+        break;
+    case '/':
         result = n1 / n2;
         printf("O resultado e: %d\n", result);
+        break;
+    default:
+        printf("valor não informado");
+        break;
     }
-    
 
     return 0;
+
 }
