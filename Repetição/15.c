@@ -2,7 +2,6 @@
 
 int main () {
     int n1;
-    int result;
     int i;
 
     printf("Informe um numero: ");
@@ -10,12 +9,9 @@ int main () {
 
     for (i = 1; i <= n1; i++)
     {
-        i = i % 2;
-        printf("%d", i);
-        if (){
-            
+        if ((i % 2) != 0){
+            printf("%d", i);
         }
-        
     }
     
     return 0;
