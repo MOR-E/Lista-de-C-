@@ -1,3 +1,6 @@
+/*4. Escreva um programa em C que apresente a tabuada de um número
+qualquer*/
+
 #include <stdio.h>
 
 int main (){

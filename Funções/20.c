@@ -1,3 +1,8 @@
+/*20.Escreva um programa que solicite dois números do tipo inteiro distintos
+ao usuário e que apresente na tela o maior deles. Esse programa deve
+possuir uma função para verificar qual é o maior número.
+*/
+
 #include <stdio.h>
 
 int myfunction();

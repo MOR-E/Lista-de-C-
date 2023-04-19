@@ -1,3 +1,6 @@
+/*15.Dado um número, crie um programa C que escreva todos os números
+ímpares menores e/ou iguais a esse número e maiores ou igual a um.
+Assuma que o número informado é positivo.*/
 #include <stdio.h>
 
 int main () {

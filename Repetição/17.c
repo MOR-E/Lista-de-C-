@@ -1,3 +1,7 @@
+/*17.Desenvolva um programa que solicite ao usuário a idade de três
+pessoas e apresente na tela a maior e a menor idade.
+*/
+
 #include <stdio.h>
 
 int main () { 

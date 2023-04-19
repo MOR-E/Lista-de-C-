@@ -1,3 +1,7 @@
+/*7. Desenvolva um programa para calcular e escrever a área e o perímetro
+de um quadrado. Dados de entrada: tamanho do lado (tipo da variável:
+numérico inteiro, valor em centímetros).*/
+
 #include <stdio.h>
 
 int main (){

@@ -23,7 +23,7 @@ int main () {
 
     if (n1 - n2 > 0){
         printf("- %d\n",result_soma);
-    } else {    // não sei ainda aaaa pq n pega o modulo certo
+    } else {    
         printf("+ %d\n",result_soma);
     }
 

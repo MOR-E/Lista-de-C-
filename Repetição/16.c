@@ -1,4 +1,4 @@
-/*Dado um conjunto de N números, faça um programa C que calcule e
+/*16.Dado um conjunto de N números, faça um programa C que calcule e
 mostre a média aritmética dos elementos desse conjunto.
 */
 

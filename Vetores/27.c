@@ -6,31 +6,38 @@ dever apresentar os resultados na tela.*/
 #include <stdio.h>
 
 int main () {
-	int n1;
-	int size_vetor = 3;
-	int vetimpar[size_vetor];
-	int vetpar[size_vetor];
+	int N = 12;
+	int vetor[N];
+	int vetimpar[N];
+	int vetpar[N];
+	int compp = 0;
+	int compi = 0;
 	int i;
-	int compara;
     
     
 	for (i = 0; i < 3; i++) {
     	printf("Informe um numero: ");
-    	scanf("%d", &n1);
+    	scanf("%d", &vetor);
    	 
-    	compara = n1 % 2;
-   	 
-    	if (compara != 0){
-        	vetimpar[size_vetor] = vetimpar[i] + n1;
+    	if (vetor[i] % 2 == 0){
+        	vetpar[compp] = vetor[i];
+			compp++;
     	} else {
-        	vetpar[size_vetor] = vetpar[i] + n1;
+        	vetimpar[compi] = vetor[i];
+			compi++;
     	}
 	}
-    // ainda esta errado essa questão
 
     
-	printf("%d\n", vetpar[size_vetor]);
-	printf("%d\n", vetimpar[size_vetor]);
+	for (int i = 0; i < N; i++)
+	{
+			printf("%d\n", vetpar[i]);
+	}
+	
+	for (int i = 0; i < N; i++)
+	{
+		printf("%d\n", vetimpar[i]);
+	}
     
     
 	return 0;

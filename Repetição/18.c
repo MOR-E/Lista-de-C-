@@ -1,3 +1,11 @@
+/*18.Faça um programa C que leia dez números que representem as notas
+de dez alunos, e que apresente:
+a) a soma dos números;
+b) a média dos números;
+c) o maior número;
+d) o menor número.
+Assuma que as notas são informadas corretamente no intervalo de 1 a 10.*/
+
 #include <stdio.h>
 
 int main (){
@@ -8,7 +16,7 @@ int main (){
     int media = 0;
     int soma = 0;
 
-    for (i = 1; i <= 10; i++) {
+    for (i = 0; i <= 9; i++) {
         printf("informe um numero: ");
         scanf("%d", &n1);
 

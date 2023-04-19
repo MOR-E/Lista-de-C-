@@ -1,17 +1,29 @@
+/*13. Uma frutaria vende frutas com a seguinte tabela de preços:
+Até 5 Kg                  /     Acima de 5 Kg
+Morango: R$ 7,50 p/Kg    /      R$ 5,30 p/Kg
+Maçã: R$ 3,50 p/Kg      /       R$ 2,80 p/Kg
+
+Se o cliente comprar menos de 5 kg de frutas e o valor total da compra
+ultrapassar R$ 19,00, receberá um desconto de 8% sobre o total.
+Escreva um programa em C para ler a quantidade (em Kg) de
+morangos e a de maçãs (em Kg) e que informe o valor a ser pago pelo
+cliente
+*/
+
 #include <stdio.h>
 
 int main () {
-    double peso_mora;
-    double peso_maca;
-    double result;
-    double preco_mora;
-    double preco_maca;
-    double result_preco;
+    float peso_mora;
+    float peso_maca;
+    float result;
+    float preco_mora;
+    float preco_maca;
+    float result_preco;
 
     printf("Informe a quantidade de morangos: ");
-    scanf("%lf", &peso_mora);
+    scanf("%f", &peso_mora);
     printf("Informe a quantidade de macas: ");
-    scanf("%lf", &peso_maca);
+    scanf("%f", &peso_maca);
     
     if (peso_maca > 5)
     {
@@ -29,8 +41,8 @@ int main () {
     
     result = peso_maca + peso_mora;
     result_preco = preco_mora + preco_maca;
-    printf("%lf\n", result);    
-    printf("%lf", result_preco);
+    printf("%.2f\n", result);    
+    printf("%.2f\n", result_preco);
 
     //o output esta saindo com o result == 0 não sei porque
  /*   if (result <= 5, result_preco >= 19){
